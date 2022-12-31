@@ -9,7 +9,7 @@ const breakpoints = {
   xs: 0,
   sm: 834,
   md: 390,
-  lg: 1440,
+  lg: 1400,
 };
 
 export { breakpoints, colors };

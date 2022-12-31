@@ -1,0 +1,49 @@
+* {
+  list-style: none;
+}
+.slick-slide>div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.button_active {
+  display: flex !important;
+  gap: 6px;
+  margin-top: -5%;
+  margin-left: 5%;
+  position: absolute;
+}
+.button_active > li > button {
+  font-size: 0;
+  width: 10px;
+  height: 14px;
+  border-radius: 100px;
+  border: 1px solid transparent;
+  transition: 0.8s;
+}
+.slick-active > button {
+  background-color: rgb(255, 255, 255);
+  transition: 0.8s;
+  width: 40px !important;
+}
+.slick-arrow {
+  margin: 0;
+  margin-top:14.5%;
+  margin-right: 11%;
+  margin-left: 83%;
+  width: 60px !important;
+  height: 60px!important;
+  border-radius: 100px;
+  position: absolute;
+  z-index: 9;
+
+}
+
+
+ .slick-arrow::before,
+.slick-arrow::after {
+  display: block;
+  font-size: 65px !important;
+  color: rgb(255, 255, 255) !important;
+} 
